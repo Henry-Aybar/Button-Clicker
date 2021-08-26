@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wraper">
+<!-- Navigation Bar -->
+        <div id="navbar">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="text" name="searchbar" placeholder="search">
+            <button class="btn" onclick="logOff(this)">Sign In</button>
+        </div>
+<!-- Definition of Ninja -->
+        <div id="def">
+            <div id="left">
+                <div class="ninja">
+                    <div class="info">
+                        <h1><b>Ninja</b></h1>
+                        <h3>Noun</h3>
+                        <h5>Plural: Ninjas</h5>
+                        <button class="btn-likes"  onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="descrip">
+                        <p>A practitioner skilled in the japanese art of ninjitsu</p>
+                    </div>
+                </div>
+                <div class="ninja">
+                    <div class="info">
+                        <h1><b>Ninja</b></h1>
+                        <h3>Noun</h3>
+                        <button class="btn-likes"  onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="descrip">
+                        <p>A programer who breaks down problems with zen-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dojo-you">
+                <h2 class="you">Dojonary is defined by YOU</h2>
+                <button class="btn-AddDef" onclick="hide(this)">Add Difinition</button>
+            </div>    
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
